@@ -103,6 +103,7 @@ function startpattern(){
         console.log(buttonColors[index]);
     }
     if(buttonColors[index] == "red"){
+        redSound.play();
         // addeffect(buttonColors[index]);
         red.add
         red.classList.add("pressed");
@@ -113,6 +114,7 @@ function startpattern(){
         
     }
     if(buttonColors[index] == "blue"){
+        blueSound.play();
         // addeffect(buttonColors[index]);
         blue.classList.add("pressed");
         setTimeout(remove, 500)
@@ -122,6 +124,7 @@ function startpattern(){
     }
     if(buttonColors[index] == "green"){
         // addeffect(buttonColors[index]);
+        greenSound.play();
         green.classList.add("pressed");
         setTimeout(remove, 500)
         function remove(){
@@ -129,6 +132,7 @@ function startpattern(){
         }
     }
     if(buttonColors[index] == "yellow"){
+        yellowSound.play();
         // addeffect(buttonColors[index]);
         yellow.classList.add("pressed")
         setTimeout(remove, 500)
@@ -204,6 +208,7 @@ function nextlevel(){
         console.log(buttonColors[index]);
     }
     if(buttonColors[index] == "red"){
+        redSound.play();
         // addeffect(buttonColors[index]);
         red.classList.add("pressed");
         setTimeout(remove, 500)
@@ -213,6 +218,7 @@ function nextlevel(){
         
     }
     if(buttonColors[index] == "blue"){
+        blueSound.play();
         // addeffect(buttonColors[index]);
         blue.classList.add("pressed");
         setTimeout(remove, 500)
@@ -221,6 +227,7 @@ function nextlevel(){
         }
     }
     if(buttonColors[index] == "green"){
+        greenSound.play();
         // addeffect(buttonColors[index]);
         green.classList.add("pressed");
         setTimeout(remove, 500)
@@ -229,6 +236,7 @@ function nextlevel(){
         }
     }
     if(buttonColors[index] == "yellow"){
+        yellowSound.play();
         // addeffect(buttonColors[index]);
         yellow.classList.add("pressed")
         setTimeout(remove, 500)
