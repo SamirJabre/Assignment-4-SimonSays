@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
 
-<body>
+<body id="body">
   <h1 id="level-title">Press Any Key to Start</h1>
   <div class="container">
     <div lass="row">
@@ -34,6 +34,23 @@
     </div>
 
   </div>
+
+  <audio id="greenSound">
+    <source src="Assets/Sounds/green.mp3" type="audio/mpeg">
+</audio>
+<audio id="redSound">
+  <source src="Assets/Sounds/red.mp3" type="audio/mpeg">
+</audio>
+<audio id="blueSound">
+  <source src="Assets/Sounds/blue.mp3" type="audio/mpeg">
+</audio>
+<audio id="yellowSound">
+  <source src="Assets/Sounds/yellow.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="wrongSound">
+  <source src="Assets/Sounds/wrong.mp3" type="audio/mpeg">
+</audio>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="Scripts/game.js" charset="utf-8"></script>
